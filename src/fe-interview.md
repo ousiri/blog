@@ -7,10 +7,10 @@
 ## HTML
 
 98. 列举出你最常用的meta标签的写法和作用
-> 1. <meta charset="utf-8">
-> 2. <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-> 3. <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
-> 4. <meta name="referrer" content="no-referrer-when-downgrade"> [Referrer Policy 介绍](https://imququ.com/post/referrer-policy.html)
+> 1. `<meta charset="utf-8">`
+> 2. `<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">`
+> 3. `<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover">`
+> 4. `<meta name="referrer" content="no-referrer-when-downgrade">` [Referrer Policy 介绍](https://imququ.com/post/referrer-policy.html)
 > 5. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
 
 99. HTML5的页面可见性（Page Visibility）有哪些应用场景？
