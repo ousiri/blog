@@ -27,6 +27,9 @@
 > 
 > 参考: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API) 和 [Page Visibility API 教程](http://www.ruanyifeng.com/blog/2018/10/page_visibility_api.html)
 
+100. HTML5怎么为输入框添加语音输入的功能呢？
+> `<input type=”text” speech x-webkit-speech />` <input type=”text” speech x-webkit-speech />
+
 ## CSS
 
 98. 移动端微信页面有哪些兼容性问题及解决方案是什么？
@@ -130,10 +133,6 @@ div{
 > 1. 全局唯一遮罩层
 > 2. sdk
 > 3. 聊天窗口
-
-100. HTML5怎么为输入框添加语音输入的功能呢？
-> `<input type=”text” speech x-webkit-speech />` <input type=”text” speech x-webkit-speech />
-
 
 ```js
 // simple
