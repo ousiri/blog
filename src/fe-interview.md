@@ -28,7 +28,14 @@
 > 参考: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API) 和 [Page Visibility API 教程](http://www.ruanyifeng.com/blog/2018/10/page_visibility_api.html)
 
 100. HTML5怎么为输入框添加语音输入的功能呢？
-> `<input type=”text” speech x-webkit-speech />` <input type=”text” speech x-webkit-speech />
+> `<input type=”text” speech x-webkit-speech />`
+
+101. 说说你对accesskey的理解，举例说明它有什么运用场景？
+> 可以为某个元素增加全局快捷键. IE为focus，chrome为click。注意触发的快捷键组合不一样
+> `<a href="http://www.baidu.com" accesskey="h">HTML</a>`
+> 
+> [HTML accesskey属性与web自定义键盘快捷访问](https://www.zhangxinxu.com/wordpress/2017/05/html-accesskey/)
+> [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey)
 
 ## CSS
 
@@ -84,6 +91,15 @@ div{
   margin: auto; /* 这个和align-items & justify-content互相替代 */
 }
 ```
+
+101. 说说你对前端二倍图的理解？移动端使用二倍图比一倍图有什么好处？
+> 在高清屏下能够查看
+
+105. 怎么实现移动端的边框0.5px
+> 1. ios支持0.5px
+> 2. 全框，这种会导致整个元素里面的尺寸都要乘2，可以设置在after或者before + pointer-event：`border: 1px solid red; transform: scale(0.5);`
+> 3. meta: `<meta name="viewport" content="width=device-width, initial-scale=0.5">`
+> 4. 背景渐变：`height: 1px; background-image: linear-gradient(0deg, red 50%, transparent 50%)`
 
 ## JS
 
@@ -201,3 +217,7 @@ console.log(4, a4 === b4, a4, a4.name, a4.__proto__, a4.constructor === Singleto
 100. 你有画过流程图吗？开始和判定分别用什么图形表示？
 > 开始 -> 圆角矩形, 判定 -> 菱形
 
+105. 域名解析它有哪几种方式？
+> 1. A类型，ip的映射，不包括端口
+> 2. CNAME，映射到别的域名，不包括端口和路径
+> 3. URL转发
