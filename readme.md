@@ -1,4 +1,4 @@
 blog for ousiri
 ===
 
-![travis build](https://api.travis-ci.org/ousiri/ousiri.github.io.svg)
+![travis build](https://travis-ci.com/ousiri/blog.svg)
