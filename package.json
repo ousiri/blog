@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "vuepress": "^1.0.2",
-    "lodash": ">=4.17.13",
+    "lodash": ">=4.17.21",
     "lodash.template": ">=4.5.0"
   }
 }
